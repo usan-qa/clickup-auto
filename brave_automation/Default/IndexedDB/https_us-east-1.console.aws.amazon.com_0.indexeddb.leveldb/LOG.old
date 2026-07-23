@@ -1,0 +1,15 @@
+2026/07/15-10:05:39.590 574f1 Reusing MANIFEST /Users/usansakhakarmi/Library/Application Support/BraveSoftware/Brave-Browser/Default/IndexedDB/https_us-east-1.console.aws.amazon.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/07/15-10:05:39.590 574f1 Recovering log #4
+2026/07/15-10:05:39.592 574f1 Reusing old log /Users/usansakhakarmi/Library/Application Support/BraveSoftware/Brave-Browser/Default/IndexedDB/https_us-east-1.console.aws.amazon.com_0.indexeddb.leveldb/000004.log 
+2026/07/16-09:16:08.778 574f1 Level-0 table #8: started
+2026/07/16-09:16:08.784 574f1 Level-0 table #8: 813802 bytes OK
+2026/07/16-09:16:08.789 574f1 Delete type=0 #4
+2026/07/16-09:16:08.792 574f1 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2026/07/16-09:16:08.792 574f1 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x02\x01@\x00f\x009\x000\x009\x001\x007\x000\x002\x00f\x001\x00e\x004\x00b\x000\x008\x008\x00f\x00f\x008\x004\x007\x00a\x00c\x008\x00a\x000\x00e\x004\x006\x00e\x008\x00c\x00e\x004\x00f\x00c\x008\x00c\x00f\x00a\x00c\x00c\x006\x001\x002\x002\x00c\x00a\x003\x000\x007\x007\x009\x003\x003\x006\x004\x000\x006\x009\x00d\x00e\x00f\x005' @ 3104 : 1
+2026/07/16-09:16:08.792 574f1 Compacting 1@1 + 1@2 files
+2026/07/16-09:16:08.794 574f1 Generated table #9@1: 42 keys, 9330 bytes
+2026/07/16-09:16:08.794 574f1 Compacted 1@1 + 1@2 files => 9330 bytes
+2026/07/16-09:16:08.794 574f1 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/07/16-09:16:08.796 574f1 Delete type=2 #5
+2026/07/16-09:16:08.796 574f1 Delete type=2 #8
+2026/07/16-09:16:08.797 574f1 Manual compaction at level-1 from '\x00\x02\x01\x02\x01@\x00f\x009\x000\x009\x001\x007\x000\x002\x00f\x001\x00e\x004\x00b\x000\x008\x008\x00f\x00f\x008\x004\x007\x00a\x00c\x008\x00a\x000\x00e\x004\x006\x00e\x008\x00c\x00e\x004\x00f\x00c\x008\x00c\x00f\x00a\x00c\x00c\x006\x001\x002\x002\x00c\x00a\x003\x000\x007\x007\x009\x003\x003\x006\x004\x000\x006\x009\x00d\x00e\x00f\x005' @ 3104 : 1 .. (end); will stop at (end)

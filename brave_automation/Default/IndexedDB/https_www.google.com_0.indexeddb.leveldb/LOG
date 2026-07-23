@@ -1,0 +1,15 @@
+2026/07/17-08:50:36.339 574ee Reusing MANIFEST /Users/usansakhakarmi/Library/Application Support/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/07/17-08:50:36.339 574ee Recovering log #4
+2026/07/17-08:50:36.339 574ee Reusing old log /Users/usansakhakarmi/Library/Application Support/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.google.com_0.indexeddb.leveldb/000004.log 
+2026/07/17-09:38:51.398 574f1 Level-0 table #8: started
+2026/07/17-09:38:51.400 574f1 Level-0 table #8: 190 bytes OK
+2026/07/17-09:38:51.402 574f1 Delete type=0 #4
+2026/07/17-09:38:51.402 574f1 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2026/07/17-09:38:51.402 574f1 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x06' @ 46 : 1
+2026/07/17-09:38:51.402 574f1 Compacting 1@1 + 1@2 files
+2026/07/17-09:38:51.403 574f1 Generated table #9@1: 19 keys, 520 bytes
+2026/07/17-09:38:51.403 574f1 Compacted 1@1 + 1@2 files => 520 bytes
+2026/07/17-09:38:51.404 574f1 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/07/17-09:38:51.404 574f1 Delete type=2 #5
+2026/07/17-09:38:51.404 574f1 Delete type=2 #8
+2026/07/17-09:38:51.405 574f1 Manual compaction at level-1 from '\x00\x00\x00\x00\x06' @ 46 : 1 .. (end); will stop at (end)

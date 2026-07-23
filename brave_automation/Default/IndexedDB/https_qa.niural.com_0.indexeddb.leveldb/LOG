@@ -1,0 +1,7 @@
+2026/07/14-21:16:25.272 5750d Reusing MANIFEST /Users/usansakhakarmi/Library/Application Support/BraveSoftware/Brave-Browser/Default/IndexedDB/https_qa.niural.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/07/14-21:16:25.273 5750d Recovering log #3
+2026/07/14-21:16:25.273 5750d Reusing old log /Users/usansakhakarmi/Library/Application Support/BraveSoftware/Brave-Browser/Default/IndexedDB/https_qa.niural.com_0.indexeddb.leveldb/000003.log 
+2026/07/15-09:21:02.214 574ee Level-0 table #5: started
+2026/07/15-09:21:02.216 574ee Level-0 table #5: 1668 bytes OK
+2026/07/15-09:21:02.220 574ee Delete type=0 #3
+2026/07/15-09:21:02.220 574ee Manual compaction at level-0 from (begin) .. (end); will stop at (end)

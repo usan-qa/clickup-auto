@@ -1,0 +1,56 @@
+2026/07/21-10:17:46.446 574ee Creating DB /Users/usansakhakarmi/Library/Application Support/BraveSoftware/Brave-Browser/Default/Local Extension Settings/knemcdpkggnbhpoaaagmjiigenifejfo since it was missing.
+2026/07/21-10:17:46.448 574ee Reusing MANIFEST /Users/usansakhakarmi/Library/Application Support/BraveSoftware/Brave-Browser/Default/Local Extension Settings/knemcdpkggnbhpoaaagmjiigenifejfo/MANIFEST-000001
+2026/07/21-11:54:16.712 574f1 Level-0 table #5: started
+2026/07/21-11:54:16.723 574f1 Level-0 table #5: 813005 bytes OK
+2026/07/21-11:54:16.724 574f1 Delete type=0 #3
+2026/07/21-14:08:08.546 574f1 Level-0 table #7: started
+2026/07/21-14:08:08.554 574f1 Level-0 table #7: 689784 bytes OK
+2026/07/21-14:08:08.558 574f1 Delete type=0 #4
+2026/07/21-15:08:47.498 574f1 Level-0 table #9: started
+2026/07/21-15:08:47.504 574f1 Level-0 table #9: 742513 bytes OK
+2026/07/21-15:08:47.507 574f1 Delete type=0 #6
+2026/07/21-18:58:57.824 574f1 Level-0 table #11: started
+2026/07/21-18:58:57.832 574f1 Level-0 table #11: 704021 bytes OK
+2026/07/21-18:58:57.834 574f1 Delete type=0 #8
+2026/07/22-07:47:45.299 574f1 Level-0 table #13: started
+2026/07/22-07:47:45.307 574f1 Level-0 table #13: 702041 bytes OK
+2026/07/22-07:47:45.308 574f1 Delete type=0 #10
+2026/07/22-08:57:16.786 574f1 Level-0 table #15: started
+2026/07/22-08:57:16.796 574f1 Level-0 table #15: 696352 bytes OK
+2026/07/22-08:57:16.798 574f1 Delete type=0 #12
+2026/07/22-08:57:16.800 574f1 Compacting 4@0 + 1@1 files
+2026/07/22-08:57:16.810 574f1 Generated table #16@0: 3 keys, 37821 bytes
+2026/07/22-08:57:16.810 574f1 Compacted 4@0 + 1@1 files => 37821 bytes
+2026/07/22-08:57:16.811 574f1 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/07/22-08:57:16.812 574f1 Delete type=2 #15
+2026/07/22-08:57:16.812 574f1 Delete type=2 #7
+2026/07/22-08:57:16.812 574f1 Delete type=2 #13
+2026/07/22-08:57:16.812 574f1 Delete type=2 #11
+2026/07/22-08:57:16.812 574f1 Delete type=2 #9
+2026/07/22-09:36:16.776 574f1 Level-0 table #18: started
+2026/07/22-09:36:16.786 574f1 Level-0 table #18: 645903 bytes OK
+2026/07/22-09:36:16.789 574f1 Delete type=0 #14
+2026/07/22-10:17:47.504 574f1 Level-0 table #20: started
+2026/07/22-10:17:47.514 574f1 Level-0 table #20: 644625 bytes OK
+2026/07/22-10:17:47.518 574f1 Delete type=0 #17
+2026/07/22-10:28:14.605 574f1 Level-0 table #22: started
+2026/07/22-10:28:14.608 574f1 Level-0 table #22: 715615 bytes OK
+2026/07/22-10:28:14.610 574f1 Delete type=0 #19
+2026/07/22-10:40:35.453 574f1 Level-0 table #24: started
+2026/07/22-10:40:35.457 574f1 Level-0 table #24: 703810 bytes OK
+2026/07/22-10:40:35.460 574f1 Delete type=0 #21
+2026/07/22-10:40:35.461 574ee Compacting 4@0 + 1@1 files
+2026/07/22-10:40:35.466 574ee Generated table #25@0: 8 keys, 44196 bytes
+2026/07/22-10:40:35.467 574ee Compacted 4@0 + 1@1 files => 44196 bytes
+2026/07/22-10:40:35.467 574ee compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/07/22-10:40:35.467 574ee Delete type=2 #16
+2026/07/22-10:40:35.467 574ee Delete type=2 #20
+2026/07/22-10:40:35.467 574ee Delete type=2 #22
+2026/07/22-10:40:35.467 574ee Delete type=2 #18
+2026/07/22-10:40:35.467 574ee Delete type=2 #24
+2026/07/22-11:14:07.374 574f1 Level-0 table #27: started
+2026/07/22-11:14:07.378 574f1 Level-0 table #27: 682971 bytes OK
+2026/07/22-11:14:07.379 574f1 Delete type=0 #23
+2026/07/22-11:23:08.268 574f1 Level-0 table #29: started
+2026/07/22-11:23:08.275 574f1 Level-0 table #29: 674478 bytes OK
+2026/07/22-11:23:08.278 574f1 Delete type=0 #26

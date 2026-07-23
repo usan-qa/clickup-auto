@@ -1,0 +1,78 @@
+{
+   "checksum": "668367985e9cc30b211d9960a379f893",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "children": [ {
+               "date_added": "13428384503289219",
+               "date_last_used": "0",
+               "guid": "e27502e7-2e33-4b71-93b5-e5809b532bdd",
+               "id": "5",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Niural Admin",
+               "type": "url",
+               "url": "https://internal-qa.niural.com/overview"
+            }, {
+               "date_added": "13428384577533927",
+               "date_last_used": "0",
+               "guid": "968606e7-2547-46a0-b4af-a1d9bdd00a29",
+               "id": "7",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Niural | QA",
+               "type": "url",
+               "url": "https://www.qa.niural.com/556bedac-9694-4ea3-b0a9-b066b62f4861/time-tools/time-sheet?tableState={%22filters%22:{%22payroll-dates%22:[%222026-07-01__2026-07-31%22]}}"
+            }, {
+               "date_added": "13428409386891168",
+               "date_last_used": "0",
+               "guid": "cb7f0cea-5fd5-40a6-93d1-f25b8dade143",
+               "id": "8",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "manageEOREstimates-qa | Functions | Lambda",
+               "type": "url",
+               "url": "https://us-east-1.console.aws.amazon.com/lambda/home?region=us-east-1#/functions/manageEOREstimates-qa?tab=code"
+            } ],
+            "date_added": "13428384544934856",
+            "date_last_used": "0",
+            "date_modified": "13428409386891168",
+            "guid": "1cf3eca3-2d28-424e-b55c-c506e9a3ab4d",
+            "id": "6",
+            "name": "Niural",
+            "type": "folder"
+         } ],
+         "date_added": "13427863511104699",
+         "date_last_used": "0",
+         "date_modified": "13428384544937698",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks Bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13427863511104699",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other Bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13427863511104699",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile Bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

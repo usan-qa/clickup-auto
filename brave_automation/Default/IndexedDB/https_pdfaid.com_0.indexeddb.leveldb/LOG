@@ -1,0 +1,7 @@
+2026/07/07-08:25:33.043 2689 Creating DB /Users/usansakhakarmi/Library/Application Support/BraveSoftware/Brave-Browser/Default/IndexedDB/https_pdfaid.com_0.indexeddb.leveldb since it was missing.
+2026/07/07-08:25:33.045 2689 Reusing MANIFEST /Users/usansakhakarmi/Library/Application Support/BraveSoftware/Brave-Browser/Default/IndexedDB/https_pdfaid.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/07/07-08:25:33.064 2686 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/07/07-08:28:18.025 2635 Level-0 table #5: started
+2026/07/07-08:28:18.027 2635 Level-0 table #5: 9452 bytes OK
+2026/07/07-08:28:18.028 2635 Delete type=0 #3
+2026/07/07-08:28:18.028 2635 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

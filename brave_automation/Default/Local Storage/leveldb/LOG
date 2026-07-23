@@ -1,0 +1,17 @@
+2026/07/22-11:24:13.551 2b8545 Reusing MANIFEST /Users/usansakhakarmi/ai-auto/brave_automation/Default/Local Storage/leveldb/MANIFEST-000001
+2026/07/22-11:24:13.553 2b8545 Recovering log #2335
+2026/07/22-11:24:13.553 2b8545 Reusing old log /Users/usansakhakarmi/ai-auto/brave_automation/Default/Local Storage/leveldb/002335.log 
+2026/07/22-11:24:25.674 2b8548 Level-0 table #2339: started
+2026/07/22-11:24:25.690 2b8548 Level-0 table #2339: 600590 bytes OK
+2026/07/22-11:24:25.694 2b8548 Delete type=0 #2335
+2026/07/22-11:24:25.695 2b8548 Compacting 4@0 + 2@1 files
+2026/07/22-11:24:25.729 2b8548 Generated table #2340@0: 3807 keys, 2518611 bytes
+2026/07/22-11:24:25.731 2b8548 Generated table #2341@0: 310 keys, 57701 bytes
+2026/07/22-11:24:25.731 2b8548 Compacted 4@0 + 2@1 files => 2576312 bytes
+2026/07/22-11:24:25.732 2b8548 compacted to: files[ 0 2 1 0 0 0 0 ]
+2026/07/22-11:24:25.733 2b8548 Delete type=2 #2339
+2026/07/22-11:24:25.733 2b8548 Delete type=2 #2329
+2026/07/22-11:24:25.733 2b8548 Delete type=2 #2330
+2026/07/22-11:24:25.733 2b8548 Delete type=2 #2332
+2026/07/22-11:24:25.733 2b8548 Delete type=2 #2336
+2026/07/22-11:24:25.733 2b8548 Delete type=2 #2334

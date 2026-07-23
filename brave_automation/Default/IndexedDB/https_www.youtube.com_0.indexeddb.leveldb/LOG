@@ -1,0 +1,57 @@
+2026/07/14-21:15:56.677 574f9 Reusing MANIFEST /Users/usansakhakarmi/Library/Application Support/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/07/14-21:15:56.678 574f9 Recovering log #16
+2026/07/14-21:15:56.678 574f9 Reusing old log /Users/usansakhakarmi/Library/Application Support/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000016.log 
+2026/07/14-21:15:57.490 574f8 Compacting 1@1 + 1@2 files
+2026/07/14-21:15:57.496 574f8 Generated table #19@1: 437 keys, 79156 bytes
+2026/07/14-21:15:57.496 574f8 Compacted 1@1 + 1@2 files => 79156 bytes
+2026/07/14-21:15:57.497 574f8 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/07/14-21:15:57.498 574f8 Delete type=2 #15
+2026/07/14-21:15:57.498 574f8 Delete type=2 #17
+2026/07/14-21:48:10.211 574f1 Level-0 table #21: started
+2026/07/14-21:48:10.224 574f1 Level-0 table #21: 1540013 bytes OK
+2026/07/14-21:48:10.227 574f1 Delete type=0 #16
+2026/07/15-09:12:44.717 574f1 Compacting 1@1 + 1@2 files
+2026/07/15-09:12:44.724 574f1 Generated table #22@1: 452 keys, 50661 bytes
+2026/07/15-09:12:44.724 574f1 Compacted 1@1 + 1@2 files => 50661 bytes
+2026/07/15-09:12:44.726 574f1 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/07/15-09:12:44.726 574f1 Delete type=2 #21
+2026/07/15-09:12:44.726 574f1 Delete type=2 #19
+2026/07/15-13:53:09.326 574f1 Level-0 table #24: started
+2026/07/15-13:53:09.342 574f1 Level-0 table #24: 1568500 bytes OK
+2026/07/15-13:53:09.345 574f1 Delete type=0 #20
+2026/07/15-15:09:51.372 574f1 Compacting 1@1 + 1@2 files
+2026/07/15-15:09:51.378 574f1 Generated table #25@1: 648 keys, 309013 bytes
+2026/07/15-15:09:51.378 574f1 Compacted 1@1 + 1@2 files => 309013 bytes
+2026/07/15-15:09:51.380 574f1 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/07/15-15:09:51.380 574f1 Delete type=2 #22
+2026/07/15-15:09:51.380 574f1 Delete type=2 #24
+2026/07/17-00:16:13.837 574f1 Level-0 table #27: started
+2026/07/17-00:16:13.857 574f1 Level-0 table #27: 1687948 bytes OK
+2026/07/17-00:16:13.859 574f1 Delete type=0 #23
+2026/07/17-07:50:43.776 574f1 Compacting 1@1 + 1@2 files
+2026/07/17-07:50:43.788 574f1 Generated table #28@1: 739 keys, 378691 bytes
+2026/07/17-07:50:43.788 574f1 Compacted 1@1 + 1@2 files => 378691 bytes
+2026/07/17-07:50:43.790 574f1 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/07/17-07:50:43.791 574f1 Delete type=2 #27
+2026/07/17-07:50:43.791 574f1 Delete type=2 #25
+2026/07/17-11:41:47.677 574f1 Level-0 table #30: started
+2026/07/17-11:41:47.689 574f1 Level-0 table #30: 1652145 bytes OK
+2026/07/17-11:41:47.692 574f1 Delete type=0 #26
+2026/07/17-13:43:52.401 574f7 Compacting 1@1 + 1@2 files
+2026/07/17-13:43:52.410 574f7 Generated table #31@1: 772 keys, 413607 bytes
+2026/07/17-13:43:52.411 574f7 Compacted 1@1 + 1@2 files => 413607 bytes
+2026/07/17-13:43:52.412 574f7 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/07/17-13:43:52.412 574f7 Delete type=2 #28
+2026/07/17-13:43:52.412 574f7 Delete type=2 #30
+2026/07/17-15:08:40.964 574f1 Level-0 table #33: started
+2026/07/17-15:08:40.973 574f1 Level-0 table #33: 1380033 bytes OK
+2026/07/17-15:08:40.975 574f1 Delete type=0 #29
+2026/07/17-15:08:40.977 574f1 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2026/07/17-15:08:40.977 574f1 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x0a\x01\x02\x01\x16\x00a\x00p\x00p\x00l\x00i\x00c\x00a\x00t\x00i\x00o\x00n\x00_\x00s\x00e\x00r\x00v\x00e\x00r\x00_\x00k\x00e\x00y' @ 24000 : 1
+2026/07/17-15:08:40.977 574f1 Compacting 1@1 + 1@2 files
+2026/07/17-15:08:40.984 574f1 Generated table #34@1: 825 keys, 698815 bytes
+2026/07/17-15:08:40.984 574f1 Compacted 1@1 + 1@2 files => 698815 bytes
+2026/07/17-15:08:40.984 574f1 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/07/17-15:08:40.985 574f1 Delete type=2 #33
+2026/07/17-15:08:40.985 574f1 Delete type=2 #31
+2026/07/17-15:08:40.986 574f1 Manual compaction at level-1 from '\x00\x0a\x01\x02\x01\x16\x00a\x00p\x00p\x00l\x00i\x00c\x00a\x00t\x00i\x00o\x00n\x00_\x00s\x00e\x00r\x00v\x00e\x00r\x00_\x00k\x00e\x00y' @ 24000 : 1 .. (end); will stop at (end)

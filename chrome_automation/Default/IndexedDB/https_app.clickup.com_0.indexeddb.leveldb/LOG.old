@@ -1,0 +1,6 @@
+2026/07/23-11:57:16.029 34201f Reusing MANIFEST /Users/usansakhakarmi/ai-auto/chrome_automation/Default/IndexedDB/https_app.clickup.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/07/23-11:57:16.029 34201f Recovering log #4
+2026/07/23-11:57:16.032 34201f Reusing old log /Users/usansakhakarmi/ai-auto/chrome_automation/Default/IndexedDB/https_app.clickup.com_0.indexeddb.leveldb/000004.log 
+2026/07/23-11:57:59.538 342021 Level-0 table #8: started
+2026/07/23-11:57:59.547 342021 Level-0 table #8: 1006087 bytes OK
+2026/07/23-11:57:59.551 342021 Delete type=0 #4
