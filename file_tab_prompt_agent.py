@@ -29,6 +29,7 @@ import sys
 import time
 from pathlib import Path
 from playwright.sync_api import sync_playwright
+from niural_auth import auto_login
 
 # Show output live instead of buffering it until exit.
 try:
@@ -39,7 +40,7 @@ except Exception:
 # ==============================================================================
 # CONFIG
 # ==============================================================================
-NIURAL_URL = "https://www.qa.niural.com/7fc11251-ecb3-470e-8d62-c7a2b77b63c6/niural-ai"
+NIURAL_URL = "https://www.qa.niural.com/49733946-fc18-49ef-8789-96c05b47e9bd/niural-ai"
 
 CHROME_PATH = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 
@@ -49,8 +50,8 @@ AUTOMATION_PROFILE_DIR = Path(__file__).parent / "chrome_automation"
 # Folder holding your prompt .txt files.
 PROMPT_FOLDER = Path(__file__).parent / "promptfolder"
 
-# Small gap (seconds) between opening each tab so they load cleanly.
-GAP_BETWEEN_TABS = 1
+# Wait this many seconds after each tab before opening the next one.
+GAP_BETWEEN_TABS = 4
 
 # Leave None for auto-detection of the "Ask me anything..." box.
 NIURAL_INPUT_SELECTOR = None
@@ -124,6 +125,7 @@ def find_niural_input(page, timeout=45000):
 
 
 def looks_like_login(page) -> bool:
+    """True if we're NOT cleanly signed in: a login page OR a sign-in error."""
     url = (page.url or "").lower()
     if "/login" in url or "/auth" in url:
         return True
@@ -131,8 +133,12 @@ def looks_like_login(page) -> bool:
         head = (page.evaluate("document.body.innerText") or "").lower()[:500]
     except Exception:
         head = ""
-    return any(s in head for s in
-               ["log in to niural", "forgot password", "sign in using sso"])
+    signals = [
+        "log in to niural", "forgot password", "sign in using sso",
+        # Niural sign-in error screen (e.g. after an account switch / stale session)
+        "unable to sign you in", "request failed with status code", "back to login",
+    ]
+    return any(s in head for s in signals)
 
 
 def _box_still_has_text(box) -> bool:
@@ -169,6 +175,11 @@ def open_prompt_in_tab(ctx, prompt, index, total):
     except Exception as e:
         print(f"   !! could not load Niural in this tab: {e}", flush=True)
         return tab
+
+    # If the session expired mid-run, this tab lands on login/error -> recover.
+    time.sleep(2)
+    if looks_like_login(tab):
+        auto_login(tab, NIURAL_URL)
 
     box = find_niural_input(tab, timeout=45000)
     if box is None:
@@ -232,11 +243,17 @@ def main():
         page.goto(NIURAL_URL, wait_until="domcontentloaded", timeout=60000)
         time.sleep(4)
         if looks_like_login(page):
-            print("\n" + "=" * 70)
-            print("Please log in to Niural in the Chrome window that just opened.")
-            print("Then come back here and press Enter (saved for next time).")
-            print("=" * 70, flush=True)
-            input("Press Enter after logging in... ")
+            # Try to log back in automatically (session expired / account switch).
+            if not auto_login(page, NIURAL_URL):
+                print("\n" + "=" * 70)
+                print("NIURAL LOGIN NEEDED (in the Chrome window that just opened):")
+                print("  1) If you see an error, click 'Back to login'.")
+                print("  2) Enter your email + password and click 'Log In'.")
+                print("  3) If asked 'Select your role', click your role (e.g. Org owner).")
+                print("  4) Open 'Ask Emma' so you can see the 'Ask me anything' box.")
+                print("Then come back here and press Enter (saved for next time).")
+                print("=" * 70, flush=True)
+                input("Press Enter once Ask Emma is open and ready... ")
         else:
             print("  Already logged in.", flush=True)
 
