@@ -1,18 +1,3 @@
-2026/07/23-14:28:43.490 35f42e Reusing MANIFEST /Users/usansakhakarmi/ai-auto/chrome_automation/Default/Local Storage/leveldb/MANIFEST-000001
-2026/07/23-14:28:43.491 35f42e Recovering log #26
-2026/07/23-14:28:43.492 35f42e Reusing old log /Users/usansakhakarmi/ai-auto/chrome_automation/Default/Local Storage/leveldb/000026.log 
-2026/07/23-14:30:43.963 35f431 Level-0 table #30: started
-2026/07/23-14:30:43.966 35f431 Level-0 table #30: 47400 bytes OK
-2026/07/23-14:30:43.968 35f431 Delete type=0 #26
-2026/07/23-14:30:43.969 35f42e Compacting 4@0 + 1@1 files
-2026/07/23-14:30:43.975 35f42e Generated table #31@0: 146 keys, 52622 bytes
-2026/07/23-14:30:43.975 35f42e Compacted 4@0 + 1@1 files => 52622 bytes
-2026/07/23-14:30:43.976 35f42e compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/07/23-14:30:43.976 35f42e Delete type=2 #20
-2026/07/23-14:30:43.976 35f42e Delete type=2 #22
-2026/07/23-14:30:43.976 35f42e Delete type=2 #27
-2026/07/23-14:30:43.976 35f42e Delete type=2 #24
-2026/07/23-14:30:43.976 35f42e Delete type=2 #30
-2026/07/23-15:13:55.499 35f431 Level-0 table #33: started
-2026/07/23-15:13:55.501 35f431 Level-0 table #33: 44432 bytes OK
-2026/07/23-15:13:55.503 35f431 Delete type=0 #29
+2026/07/24-08:27:04.980 40a83c Reusing MANIFEST /Users/usansakhakarmi/ai-auto/chrome_automation/Default/Local Storage/leveldb/MANIFEST-000001
+2026/07/24-08:27:04.984 40a83c Recovering log #32
+2026/07/24-08:27:04.985 40a83c Reusing old log /Users/usansakhakarmi/ai-auto/chrome_automation/Default/Local Storage/leveldb/000032.log 
