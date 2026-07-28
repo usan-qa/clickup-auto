@@ -1,9 +1,0 @@
-Show timesheet hours by employee for 2027.
-How many approved timesheet hours are there in March 2027?
-How many timesheets were approved for March 2027?
-How many timesheets are still pending for March 2027?
-Show regular vs. overtime hours for 2027.
-Show approved hours by job title for 2027.
-What is the average approved hours per employee for 2027?
-How many hours did William Irving work in 2027?
-Why are there only 6 employees?
