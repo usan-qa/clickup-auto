@@ -1,3 +1,0 @@
-Show me the visualization of expense count broken down by status and month for 2026
-Explain all timeoff policies.
-List employees who are on leave this week.
