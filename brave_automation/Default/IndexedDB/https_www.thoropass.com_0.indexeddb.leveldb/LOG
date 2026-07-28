@@ -1,6 +1,0 @@
-2026/07/07-13:38:55.418 2630 Creating DB /Users/usansakhakarmi/Library/Application Support/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.thoropass.com_0.indexeddb.leveldb since it was missing.
-2026/07/07-13:38:55.422 2630 Reusing MANIFEST /Users/usansakhakarmi/Library/Application Support/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.thoropass.com_0.indexeddb.leveldb/MANIFEST-000001
-2026/07/07-14:22:42.817 2630 Level-0 table #5: started
-2026/07/07-14:22:42.818 2630 Level-0 table #5: 834 bytes OK
-2026/07/07-14:22:42.820 2630 Delete type=0 #3
-2026/07/07-14:22:42.820 2630 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
