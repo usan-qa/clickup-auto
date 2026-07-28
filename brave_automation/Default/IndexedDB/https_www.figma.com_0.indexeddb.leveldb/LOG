@@ -1,7 +1,0 @@
-2026/07/14-21:16:13.266 574f7 Reusing MANIFEST /Users/usansakhakarmi/Library/Application Support/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.figma.com_0.indexeddb.leveldb/MANIFEST-000001
-2026/07/14-21:16:13.267 574f7 Recovering log #3
-2026/07/14-21:16:13.268 574f7 Reusing old log /Users/usansakhakarmi/Library/Application Support/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.figma.com_0.indexeddb.leveldb/000003.log 
-2026/07/14-21:16:13.569 574ee Level-0 table #5: started
-2026/07/14-21:16:13.571 574ee Level-0 table #5: 6714 bytes OK
-2026/07/14-21:16:13.573 574ee Delete type=0 #3
-2026/07/14-21:16:13.574 574ee Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)
