@@ -1,6 +1,0 @@
-"Approved timesheet hours by employee for 2027 as a bar chart"
-"List each employee's approved timesheet hours for 2027 as a table"
-"Share of approved timesheet hours by employee for 2027 as a pie chart"
-"Monthly approved timesheet hours by employee for 2027 as a line chart"
-"Distribution of approved timesheet hours across employees for 2027 as a histogram"
-"Cumulative approved timesheet hours over 2027 as a cumulative chart"
